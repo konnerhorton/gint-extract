@@ -14,7 +14,7 @@ Download and install the appropriate one for your machine.
 
 Install the tool:
 
-pip install git+<https://github.com/konnerhorton/gint_extraction.git>
+pip install git+<https://github.com/konnerhorton/gint-extract.git>
 
 ## Usage
 
