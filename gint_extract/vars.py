@@ -1,0 +1,18 @@
+SYSTEM_TABLES = [
+    "MSysACEs",
+    "MSysAccessObjects",
+    "MSysAccessStorage",
+    "MSysMacros",
+    "MSysModules",
+    "MSysModules2",
+    "MSysNavPaneGroupCategories",
+    "MSysNavPaneGroupToObjects",
+    "MSysNavPaneGroups",
+    "MSysNavPaneObjectIDs",
+    "MSysObjects",
+    "MSysQueries",
+    "MSysRelationships",
+    "\x7fGIDENTITY",
+    "\x7fGIDLAYER",
+    "\x7fGIDPAGE",
+]

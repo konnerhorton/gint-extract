@@ -1,0 +1,90 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+
+# Setuptools distribution files
+*.eggs
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+# Usually these files are written to a folder named "build"
+# Ignore that directory here
+/build/
+
+# Virtual Environment
+env/
+venv/
+ENV/
+.env/
+.venv/
+.gint/
+
+# VSCode and PyCharm specific files
+.vscode/
+.idea/
+
+# Python virtual environment metadata
+.pytest_cache/
+.tox/
+.coverage
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# MyPy
+.mypy_cache/
+
+# SQL databases
+*.sqlite3
+*.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Log files
+*.log
+
+# Unit test / coverage reports
+htmlcov/
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# PyInstaller
+#  Usually these files are written to a folder named "dist"
+dist/
+
+# Generated documentation
+docs/_build/
+
+# Temporary files
+*.bak
+*.swp
+*.tmp
+
+# Ignore AccessDatabaseEngine executable files in assets
+/assets/AccessDatabaseEngine*.exe

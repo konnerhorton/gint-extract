@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gint_extract"
+version = "0.1.0"
+description = "A CLI tool for writting gINT files to another format"
+readme = "README.md"
+authors = [
+    {name = "Konner Horton", email = "konnerhorton@gmail.com"}
+]
+license = {file = "LICENSE"}
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[project.scripts]
+gint-extract = "gint_extract.extract:main"
+
